@@ -1,5 +1,5 @@
 name: 'Build V Project'
-description: 'GitHub action that builds a V project'
+description: 'GitHub action that builds a vlang project'
 author: 'nzbr'
 inputs:
   args:
