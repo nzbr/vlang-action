@@ -2,6 +2,8 @@
 
 set -ex
 
+sudo chown -R 1000:1000 .
+
 if [ "$INPUT_COMPILER" != "master" ]; then
 	pushd /opt/v
 	git clean -xf
