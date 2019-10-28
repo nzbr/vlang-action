@@ -21,7 +21,7 @@ Defaults to `master`
 
 ## Example usage
 ```yaml
-uses: nzbr/vlang-action
+uses: nzbr/vlang-action@v1
 with:
   file: "program.v"
 ```
