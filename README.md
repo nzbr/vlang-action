@@ -1,7 +1,6 @@
 # V docker action
 
 This action compiles a V project
-This action compiles a V project
 
 ## Inputs
 
