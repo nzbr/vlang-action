@@ -1,0 +1,21 @@
+name: 'Build V Project'
+description: 'GitHub action that builds a V project'
+author: 'nzbr'
+inputs:
+  args:
+    description: 'Additional command line flags for the v compiler. Use "-cc gcc -prod" for optimized builds'
+    required: false
+  file:
+    decription: 'The file to be complied. Defaults to "."'
+    required: false
+    default: '.'
+  compiler:
+    description: 'Commit id (tag, branch or hash) of the v compiler to use'
+    required: false
+    default: 'master'
+branding:
+  color: 'blue'
+  icon: 'package'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

@@ -1,0 +1,2 @@
+root    ALL=(ALL:ALL) ALL
+build   ALL=(ALL:ALL) NOPASSWD:ALL
