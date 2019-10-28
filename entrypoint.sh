@@ -2,9 +2,6 @@
 
 set -ex
 
-whoami
-id -u
-
 if [ "$INPUT_COMPILER" != "master" ]; then
 	pushd /opt/v
 	git clean -xf
