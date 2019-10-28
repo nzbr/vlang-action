@@ -7,6 +7,7 @@ RUN chmod -R a+w /opt
 
 ADD sudoers /etc/sudoers
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod a+rx /entrypoint.sh
 
 RUN useradd -m -s /bin/bash build
 USER build
