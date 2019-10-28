@@ -5,6 +5,7 @@ inputs:
   args:
     description: 'Additional command line flags for the v compiler. Use "-cc gcc -prod" for optimized builds'
     required: false
+    default: ''
   file:
     decription: 'The file to be complied. Defaults to "."'
     required: false
