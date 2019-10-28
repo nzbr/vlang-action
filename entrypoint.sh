@@ -7,7 +7,7 @@ if [ "$INPUT_COMPILER" != "master" ]; then
     git clean -xf
     git fetch
     git reset --hard origin/master
-    git checkout "$1"
+    git checkout "$INPUT_COMPILER"
 
     make
     v -o v v.v
