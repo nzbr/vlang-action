@@ -10,8 +10,8 @@ if [ "$INPUT_COMPILER" != "master" ]; then
 	git checkout "$INPUT_COMPILER"
 
 	make
-	v -o v v.v
-	sudo v symlink
+	./v self -prod
+	sudo ./v symlink
 	popd
 fi
 
